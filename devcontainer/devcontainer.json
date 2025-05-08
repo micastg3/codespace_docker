@@ -10,7 +10,8 @@
   "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
  ],
  "postCreateCommand": "sudo chown vscode:docker /var/run/docker.sock || true",
- "remoteUser": "vscode",
- "features": {
+ "remoteUser": "vscode" //,
+ /*"features": {
   "docker-in-docker": "latest"
+ }*/
 }
